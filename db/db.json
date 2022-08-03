@@ -1,13 +1,7 @@
 {
   "users": [
     {
-      "name": "juan",
-      "username": "perez",
-      "email": "juan.perez@gmail.com",
-      "id": 1
-    },
-    {
-      "name": "pepe",
+      "name": "Sami",
       "username": "Samantha",
       "email": "Nathan@yesenia.net",
       "id": 3
@@ -17,18 +11,6 @@
       "username": "Karianne",
       "email": "Julianne.OConner@kory.org",
       "id": 4
-    },
-    {
-      "name": "pepe",
-      "username": "perez",
-      "email": "asdad",
-      "id": 5
-    },
-    {
-      "name": "pepe",
-      "username": "perez",
-      "email": "asdad",
-      "id": 6
     },
     {
       "id": 7,
@@ -50,6 +32,30 @@
       "username": "Moriah.Stanton",
       "email": "Rey.Padberg@karina.biz",
       "address": "Kattie Turnpike"
+    },
+    {
+      "name": "pedro",
+      "username": "peter123",
+      "email": "peter@gmail.com",
+      "id": 13
+    },
+    {
+      "name": "nombre12",
+      "username": "usuario 12",
+      "email": "correo12",
+      "id": 14
+    },
+    {
+      "name": "json",
+      "username": "jsnborne",
+      "email": "jsborne@gmail.com",
+      "id": 15
+    },
+    {
+      "name": "david",
+      "username": "daviddr",
+      "email": "adavidr@gmail.com",
+      "id": 17
     }
   ]
 }
