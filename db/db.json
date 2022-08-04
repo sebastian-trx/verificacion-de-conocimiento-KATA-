@@ -40,12 +40,6 @@
       "id": 13
     },
     {
-      "name": "nombre12",
-      "username": "usuario 12",
-      "email": "correo12",
-      "id": 14
-    },
-    {
       "name": "json",
       "username": "jsnborne",
       "email": "jsborne@gmail.com",
@@ -56,6 +50,12 @@
       "username": "daviddr",
       "email": "adavidr@gmail.com",
       "id": 17
+    },
+    {
+      "name": "Sebastian ",
+      "username": "sebastian 123",
+      "email": "sebastian@gmail.com",
+      "id": 18
     }
   ]
 }

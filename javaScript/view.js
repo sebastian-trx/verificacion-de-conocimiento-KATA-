@@ -1,11 +1,12 @@
 import { controller } from "./controller.js";
 import { model } from "./model.js";
+
+/**
+ * vista de la app, aquí se crean y se inyectan los 
+ * nodos al DOM
+ */
 export let view = {
   render: async function () {
-    /**
-     * inyeccion de nodos al DOM 
-     */
-
     //div root
     let root = document.querySelector(".root");
     //contenedor del form
@@ -30,19 +31,19 @@ export let view = {
     buttonUpdate.type = "button";
     buttonUpdate.value = "enviar";
     buttonUpdate.classList.add("update");
-    //agregamos cosas al form
+    //se agregan inputs al form
     form.append(inputName, inputUsername, inputEmail, inputId, buttonUpdate);
-    //agregamos form al divformcontainer
+    //se agrega el form al divformcontainer
     divformContainer.append(form);
-    // contenedor de la tabla
+    // se crea el contenedor de la tabla
     let divtableContainer = document.createElement("div");
     divtableContainer.classList.add("tableContainer");
-    // tabla
+    // creacion de la tabla
     let table = document.createElement("table");
-    // tbody
+    // creacion del tbody
     let tbody = document.createElement("tbody");
     tbody.classList.add("tbody");
-    // tr's
+    // creacion de los tr's
     let tr = document.createElement("tr");
     let td1 = document.createElement("td");
     td1.textContent = "Nombre";
@@ -71,7 +72,8 @@ export let view = {
     });
 
     /**
-     * recorremos el modelo que contiene los usuarios 
+     * se recorre el modelo que contiene los usuarios por cada
+     * item del arreglo se crea una fila de la tabla
      */
     model.usuarios.forEach((el) => {
         let tbody = document.querySelector(".tbody");
