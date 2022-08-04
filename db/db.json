@@ -1,9 +1,9 @@
 {
   "users": [
     {
-      "name": "Sami",
-      "username": "Samantha",
-      "email": "Nathan@yesenia.net",
+      "name": "Samantha Nathan",
+      "username": "Samantha 123",
+      "email": "Nathan@yesenia.com",
       "id": 3
     },
     {
@@ -32,24 +32,6 @@
       "username": "Moriah.Stanton",
       "email": "Rey.Padberg@karina.biz",
       "address": "Kattie Turnpike"
-    },
-    {
-      "name": "pedro",
-      "username": "peter123",
-      "email": "peter@gmail.com",
-      "id": 13
-    },
-    {
-      "name": "json",
-      "username": "jsnborne",
-      "email": "jsborne@gmail.com",
-      "id": 15
-    },
-    {
-      "name": "david",
-      "username": "daviddr",
-      "email": "adavidr@gmail.com",
-      "id": 17
     },
     {
       "name": "Sebastian ",

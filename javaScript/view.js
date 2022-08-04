@@ -40,24 +40,26 @@ export let view = {
     divtableContainer.classList.add("tableContainer");
     // creacion de la tabla
     let table = document.createElement("table");
+    // creacion del thead
+    let thead = document.createElement("thead")
     // creacion del tbody
     let tbody = document.createElement("tbody");
     tbody.classList.add("tbody");
     // creacion de los tr's
     let tr = document.createElement("tr");
-    let td1 = document.createElement("td");
-    td1.textContent = "Nombre";
-    let td2 = document.createElement("td");
-    td2.textContent = "Usuario";
-    let td3 = document.createElement("td");
-    td3.textContent = "Correo";
-    let td4 = document.createElement("td");
-    td4.textContent = "Acciones";
+    let th1 = document.createElement("th");
+    th1.textContent = "Nombre";
+    let th2 = document.createElement("th");
+    th2.textContent = "Usuario";
+    let th3 = document.createElement("th");
+    th3.textContent = "Correo";
+    let th4 = document.createElement("th");
+    th4.textContent = "Acciones";
     // agrega tbody a table
-    table.append(tbody);
+    table.append(thead,tbody);
     // agrega tr a tbody
-    tbody.append(tr);
-    tr.append(td1, td2, td3, td4);
+    thead.append(tr);
+    tr.append(th1, th2, th3, th4);
     // agrega tabla a div tableContainer
     divtableContainer.append(table);
     // agrega los div container al div raiz
